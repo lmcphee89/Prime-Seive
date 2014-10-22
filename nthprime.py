@@ -10,7 +10,7 @@ def prime_test(num):
             return False
     return True
 
-def primeLength(n): # finds how many prime numbers below n
+def primeLength(n): # finds how many prime numbers below n 
 	squareofuser = math.sqrt(n)
 	roundsquare = int(round(squareofuser))
 	primes = [False] + [False] + [True] * (n-1)
